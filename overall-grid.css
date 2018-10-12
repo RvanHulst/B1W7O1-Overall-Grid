@@ -1,0 +1,123 @@
+body{
+font-family: 'Lato', sans-serif;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px #282828, 0px -8px 0px #282828;
+
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 5%;
+  display: block;
+}
+.box{
+  min-height: 100px;
+  max-height: 200px;
+  background: url(img/header_bg.png);
+  background-repeat: repeat-x;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: block;
+}
+
+#carimage {
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+}
+
+li > a:hover {
+  color: grey;
+}
+
+.main {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#navbar>li {
+  color: #647489;
+  float: right;
+  margin: 20px;
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+#logo {
+  margin-left: 30px;
+  margin-top: 1%;
+}
+
+div#bannertext {
+  align-self: normal;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 690px 300px;
+  grid-gap: 10px;
+  color: white;
+  height: 370px;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  background: linear-gradient(to bottom, #336699 0%, #009999 100%);
+}
+
+#black {
+  height: 25px;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 5%;
+  padding: 1%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.slider {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 5%;
+  align-items: center;
+  justify-items: center;
+  margin-top: 2%;
+}
+
+.slider>h1 {
+  font-size: 20px;
+}
+ .item1 { grid-area: header; }
+ .item3 { grid-area: main; }
+ .item4 { grid-area: right; }
+ .item5 { grid-area: footer; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main right right'
+    'footer footer footer footer footer footer';
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.tip{
+  background-color:#def6ed;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+}
