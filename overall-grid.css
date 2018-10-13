@@ -17,12 +17,7 @@ font-family: 'Lato', sans-serif;
   grid-gap: 5%;
   display: block;
 }
-.box{
-  min-height: 100px;
-  max-height: 200px;
-  background: url(img/header_bg.png);
-  background-repeat: repeat-x;
-}
+
 li a {
   text-decoration: none;
   color: black;
